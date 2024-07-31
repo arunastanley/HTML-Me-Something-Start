@@ -1,8 +1,18 @@
 /* Write your CSS here! */
 
- .column {
+ .columnIngredients {
     float: left;
     width: 35%;
+    background-color: bisque;
+    padding: 10px 10px 10px 10px;
+    line-height: 1.6;
+  }
+
+  .columnMethod{
+    /* width: 100%; */
+    margin: 25px 50px 75px 50px;
+    line-height: 1.6;
+    /* padding: 25px 50px 75px 100px; */
   }
   
   /* Clear floats after the columns */
@@ -12,13 +22,29 @@
     clear: both;
     
   }
-  section {
-    float: left;
-    width: 30%;
-    height: 300px; /* only for demonstration, should be removed */
-    /* background: #ccc; */
-    padding: 20px;
+
+  body{
+    margin: 25px 50px 75px 50px;
   }
-   
+
+  .HeaderBkgdImg{
+    width:100%;
+    height:25%;
+  }
+
+ footer{
+    padding: 10px;
+    border: 1px solid #af784c;
+    text-align: center;
+  }
+
+
+  .socialMediaImage {
+    height: 40px;
+    width: 40px;
+  }
+
+
+
 
  
